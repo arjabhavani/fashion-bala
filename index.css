@@ -392,3 +392,8 @@ img{
     visibility: none !important;
 }
 
+@media only screen and (max-width: 768px) {
+    .banner-content-para p{
+        padding: 0px;
+    }
+}
