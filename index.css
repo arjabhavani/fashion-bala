@@ -385,3 +385,9 @@ img{
 .active{
     background-color: #3a8f96 !important;
 }
+.but:hover .collapse{
+    visibility: visible !important;
+}
+.collapse{
+    visibility: none !important;
+}
