@@ -256,8 +256,10 @@ img{
     color: #ffffff;
 }
 .displ-fl{
-    display: flex;
-    flex-direction: column;
+    display: none !important;
+}
+.dropdown:hover .dropdown-menu{
+    display: block !important;
 }
 .gallery-grids img{
     width: 100%;
